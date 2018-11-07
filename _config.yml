@@ -3,13 +3,13 @@
 #
 
 # Name of your site (displayed in the header)
-name: Your Name
+name: Stalin Maza
 
 # Short bio or description (displayed in the header)
-description: Web Developer from Somewhere
+description: Desarrollador Web
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
+avatar: https://avatars0.githubusercontent.com/u/18720294?s=460&v=4
 
 #
 # Flags below are optional
@@ -19,7 +19,7 @@ avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/je
 footer-links:
   dribbble:
   email:
-  facebook:
+  facebook: 
   flickr:
   github: barryclark/jekyll-now
   instagram:
