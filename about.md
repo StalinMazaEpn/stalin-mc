@@ -1,3 +1,8 @@
+---
+layout: page
+title: Acerca de Mí
+permalink: /about-me/
+---
 
 Quito, Ecuador!
 
