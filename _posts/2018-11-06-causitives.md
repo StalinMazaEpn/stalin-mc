@@ -1,9 +1,8 @@
 ---
 layout: post
-title: Active and Passive Causatives!
+title: Active and Passive Causatives
+permalink: /causitives-active-passive/
 ---
-
-# Active and Passive Causatives
 
 What`s it?
 
