@@ -1,15 +1,10 @@
----
-layout: page
-title: About
-permalink: /about/
----
 
-Some information about you!
+Quito, Ecuador!
 
-### More Information
+### Más información
 
-A place to include any other types of information that you'd like to include about yourself.
+Puedes ver mi portafolio: [aquí](https://stalinct97.gitlab.io/stalin-landing-page/)
 
-### Contact me
+### Contáctame
 
-[email@domain.com](mailto:email@domain.com)
+Envíame un correo a 'stalin_ct97@hotmail.com' haciendo click: [aquí](mailto:stalin_ct97@hotmail.com)
