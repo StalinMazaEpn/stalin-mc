@@ -1,4 +1,10 @@
-## Ver Documentación: <a href="https://ionicframework.com/docs/" target="_blank">Ionic</a>
+---
+layout: post
+title: Tips para usar IONIC 3
+permalink: /tips-usar-ionic-3/
+---
+
+** Ver Documentación: <a href="https://ionicframework.com/docs/" target="_blank">Ionic</a>**
 
 Ejecutamos el siguiente comando para instalar ionic en nuestro entorno.
 
