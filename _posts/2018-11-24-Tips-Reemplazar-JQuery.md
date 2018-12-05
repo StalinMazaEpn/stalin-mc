@@ -1,3 +1,9 @@
+---
+layout: post
+title: Métodos de JQuery que Vanilla JS ya ofrece de manera Nativa.
+permalink: /vanilla-js-jquery/
+---
+
 Jquery es una gran líbreria que nos soluciono muchos problemas que el Javascript antiguo no lo podía realizar, pero con la venida de 
 Ecmascript 6, se puede ejecutar muchas cosas de Jquery con Javascript Nativo. 
 
