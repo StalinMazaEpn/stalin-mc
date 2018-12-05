@@ -4,7 +4,9 @@ title: Tips para usar IONIC 3
 permalink: /tips-usar-ionic-3/
 ---
 
-** Ver Documentación: <a href="https://ionicframework.com/docs/" target="_blank">Ionic</a>**
+Las siguientes son indicaciones, tips y formas que aprendí leyendo documentación, en foros o en libros para usar IONIC 3 de manera correcta, espero sean utíles para ustedes, tal como fueron para mí.
+
+**Ver Documentación: <a href="https://ionicframework.com/docs/" target="_blank">Ionic</a>**
 
 Ejecutamos el siguiente comando para instalar ionic en nuestro entorno.
 
