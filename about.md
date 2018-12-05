@@ -8,7 +8,7 @@ Quito, Ecuador!
 
 ### Más información
 
-Puedes ver mi portafolio: [aquí](https://stalinct97.gitlab.io/stalin-landing-page/)
+Puedes ver mi portafolio: <a href="https://stalinmazaepn.github.io/stalinMaza/" target="_blank">aquí</a>
 
 ### Contáctame
 
