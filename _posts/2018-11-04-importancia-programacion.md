@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Importancia de la Programación
+permalink: /importancia-programacion-2018/
 ---
 
 La programación es super importante y con este video podras entender de una forma clara por que sucede esto.
