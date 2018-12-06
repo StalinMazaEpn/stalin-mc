@@ -4,8 +4,6 @@ title: Manejo de Funciones Asíncronas en JavaScript
 permalink: /manejo-funciones-asincronas-js/
 ---
 
-# Manejo de Funciones
-
 JavaScript en su versión más actual ofrece formas modernas para ejecutar funciones asíncronas, las cuales según el orden
 comenzaron en forma de callbacks, para seguir despues con las promesas y finalmente ahora nos ofrece el uso de async/await.
 
