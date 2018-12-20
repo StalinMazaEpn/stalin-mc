@@ -1,7 +1,9 @@
 ---
 layout: post
-title: Plan de Contingencia ante Desastres en un Centro de Computo
+title: Plan de Contingencia ante Desastres en un Centro de Cómputo
 permalink: /plan-contingencia-ante-desastres-centro-computo/
+category: Soporte Técnico de TICs
+tags: [plan de contingencia, centro de cómputo, tics]
 ---
 
 Plan de Contingencia
@@ -11,7 +13,7 @@ software, procesos y los datos críticos de un negocio.
 
 **Porque Implementarlo?**
 
-- Para permitir la continuidad de las operaciones de un centro computo cuando existan desastres naturales o provocados.
+- Para permitir la continuidad de las operaciones de un centro cómputo cuando existan desastres naturales o provocados.
 
 - Para solucionar interrupciones ante desastres.
  
@@ -29,7 +31,7 @@ software, procesos y los datos críticos de un negocio.
 
 - Daños En La Infraestructura.
 - Sabotaje De Los Datos En El Sistema.
-- Borrado De InformaciÒN.
+- Borrado De Información.
 - Robo De InformacióN.
 - Acceso No Autorizado.
 - Desastres Naturales.
@@ -62,11 +64,11 @@ buscando evitar consecuencias graves para el negocio.
 - Se debe desarrollar estrategias de recuperación.
 - Se debe resumir el plan para identificar los procesos importantes y eliminar redundancias.
 - Se debe concientizar, capacitar y probar los planes.
-- Se debe mantener y mejorar e plan ante desastres.
+- Se debe mantener y mejorar el plan ante desastres.
 
 **Fases para el Desarrollo de un DRP**
 
-- Realizar un inventario de toda la infraestructura, los bienes y los sistemas de informaciòn.
+- Realizar un inventario de toda la infraestructura, los bienes y los sistemas de información.
 
 - Evaluar los riesgos  y determinar las amenazas y vulnerabilidades de cada departamento.
 
