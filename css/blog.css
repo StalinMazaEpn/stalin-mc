@@ -37,12 +37,23 @@ input.search-item{
     color: #000 !important;
 }
 
+.relatedPost{
+  margin: 1rem !important;
+  text-align: center;
+}
 .relatedPost a {
   color: #464343 !important;
 }
 
 .relatedPost a:hover {
   color: #000 !important;
+}
+
+.post-relacionados h4{
+    margin-top: 2.4rem;
+    font-size: 2.2rem;
+    color: #464040;
+    text-align: center;
 }
 
 article.post h1 a{
