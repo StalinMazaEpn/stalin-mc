@@ -12,8 +12,12 @@ input.search-item{
 .results-search{
     max-width: 82% !important;
     margin: auto !important;
-    padding-top: 1rem !important;
+    padding-top: 1.6rem !important;
     text-align: center !important;
+}
+
+.results-search li {
+    padding: .4rem !important;
 }
 
 .results-search li a{  
