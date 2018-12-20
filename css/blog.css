@@ -35,3 +35,7 @@ input.search-item{
 .relatedPost a:hover {
   color: #000 !important;
 }
+
+article.post h1 a{
+  font-size: 3.5rem;
+}
