@@ -4,7 +4,7 @@ nav.nav-blog{
 }
 
 input.search-item{
-    max-width: 80% !important;
+    /*max-width: 80% !important;*/
     margin: auto !important;
     display: block !important;
 }
