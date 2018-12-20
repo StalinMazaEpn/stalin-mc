@@ -27,3 +27,11 @@ input.search-item{
 .results-search li a:hover{
     color: #000 !important;
 }
+
+.relatedPost a {
+  color: #464343 !important;
+}
+
+.relatedPost a:hover {
+  color: #000 !important;
+}
