@@ -8,3 +8,18 @@ input.search-item{
     margin: auto !important;
     display: block !important;
 }
+
+.results-search{
+    max-width: 82% !important;
+    margin: auto !important;
+    padding-top: 1rem !important;
+    text-align: center !important;
+}
+
+.results-search li a{  
+    color: #464343 !important;
+}
+
+.results-search li a:hover{
+    color: #000 !important;
+}
