@@ -1,10 +1,10 @@
-.nav-blog{
+nav.nav-blog{
   background-color: #53575a !important;
   font-size: 1.6rem !important;
 }
 
-.search-item{
+input.search-item{
     max-width: 80% !important;
-    margin: auto;
-    display: block;
+    margin: auto !important;
+    display: block !important;
 }
