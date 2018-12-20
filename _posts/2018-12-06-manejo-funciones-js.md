@@ -2,6 +2,8 @@
 layout: post
 title: Manejo de Funciones Asíncronas en JavaScript
 permalink: /manejo-funciones-asincronas-js/
+category: Programación
+tags: [programación, web dev, javascript,es6]
 ---
 
 JavaScript en su versión más actual ofrece formas modernas para ejecutar funciones asíncronas, las cuales según el orden
