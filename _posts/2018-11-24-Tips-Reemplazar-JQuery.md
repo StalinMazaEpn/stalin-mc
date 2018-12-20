@@ -2,6 +2,8 @@
 layout: post
 title: Métodos de JQuery que Vanilla JS ya ofrece de manera Nativa.
 permalink: /vanilla-js-jquery/
+category: Programación
+tags: [programación, jquery, frontend, vanilla js]
 ---
 
 Jquery es una gran líbreria que nos soluciono muchos problemas que el Javascript antiguo no lo podía realizar, pero con la venida de 
