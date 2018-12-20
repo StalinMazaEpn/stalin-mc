@@ -11,8 +11,14 @@
     <link rel="icon" href="{{site.baseurl }}/favicon.ico">
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    <!-- MATERIALIZE CSS-->
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/blog.css">
   </head>
 
   <body>
@@ -34,9 +40,9 @@
       </div>
     </div>
     <!-- start search-->
-    <div>
-      <input id="search-input" type="text" placeholder="Buscar...">
-      <ul id="results-container"></ul>
+    <div class="search-container">
+      <input id="search-input" type="text" placeholder="Buscar..." class="search-item">
+      <ul id="results-container" class="results-search"></ul>
     </div>
     <!-- end search-->
     <div id="main" role="main" class="container">
