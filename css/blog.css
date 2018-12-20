@@ -3,6 +3,15 @@ nav.nav-blog{
   font-size: 1.6rem !important;
 }
 
+nav.nav-blog a{
+  color: #f3ecec !important;
+}
+
+nav.nav-blog a:hover{
+  color: #fff !important;
+}
+
+
 input.search-item{
     /*max-width: 80% !important;*/
     margin: auto !important;
@@ -37,5 +46,12 @@ input.search-item{
 }
 
 article.post h1 a{
-  font-size: 3.5rem;
+  font-size: 3.5rem !important;
+  color: #464343 !important;
 }
+
+article.post h1 a{
+  color: #000 !important;
+}
+
+
