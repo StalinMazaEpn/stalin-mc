@@ -176,12 +176,15 @@ img {
   }
 
   img {
-    border-radius: 5px;
+    //update profile style
+    border-radius: 50%;
   }
 }
 
 .site-info {
   float: left;
+  //update site menu
+  margin-top: .6rem;
 
   @include mobile {
     float: none;
