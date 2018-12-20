@@ -2,6 +2,8 @@
 layout: post
 title: Portafolio de Servicios PhoneMorbidtech
 permalink: /portafolio-servicios-phonemorbidtech/
+category: Comercio Electrónico
+tags: [comercio electrónico, portafolio servicios, phonemorbidtech]
 ---
 
 **Mi Portafolio de Servicios** [Ejemplo Fictisio]
