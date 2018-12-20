@@ -2,6 +2,8 @@
 layout: post
 title: Códigos de Estado
 permalink: /codigos-estado-http-2018/
+category: Programación
+tags: [web, programación, dev,servers]
 ---
 
 Los códigos de estado son devueltos por el servidor luego de recibir una petición HTTP.
