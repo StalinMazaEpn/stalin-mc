@@ -33,7 +33,12 @@
         </header>
       </div>
     </div>
-
+    <!-- start search-->
+    <div>
+      <input id="search-input" type="text" placeholder="Buscar...">
+      <ul id="results-container"></ul>
+    </div>
+    <!-- end search-->
     <div id="main" role="main" class="container">
       {{ content }}
     </div>
@@ -48,4 +53,18 @@
 
     {% include analytics.html %}
   </body>
+  <!--input search js -->
+  <script type="text/javascript" src="{{ site.baseurl }}/js/jekyll-search.js"></script>
+  <script type="text/javascript">
+      SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        json: 'search.json',
+        searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+        noResultsText: 'No se han encontrado resultados.',
+        limit: 10,
+        fuzzy: false,
+        exclude: ['Welcome']
+      })
+  </script>
 </html>
