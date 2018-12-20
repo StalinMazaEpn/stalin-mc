@@ -1,7 +1,12 @@
 ---
 layout: default
 ---
-
+<!-- start search-->
+  <div class="search-container">
+     <input id="search-input" type="text" placeholder="Buscar..." class="search-item">
+     <ul id="results-container" class="results-search"></ul>
+  </div>
+<!-- end search-->
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
