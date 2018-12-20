@@ -2,6 +2,8 @@
 layout: post
 title: Active and Passive Causatives
 permalink: /causitives-active-passive/
+category: Ingles
+tags: [Ingles, Causatives]
 ---
 
 What`s it?
