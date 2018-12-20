@@ -2,6 +2,8 @@
 layout: post
 title: Infracciones Electrónicas en el Código Penal (EC)
 permalink: /infracciones-electronicas-codigo-penal/
+category: Seguridad en Redes
+tags: [seguridad, legislación, infracciones electrónicas,ecuador]
 ---
 
 Estos son algunos artículos que se encuentran en el código penal y se refieren a las infracciones electrónicas y su sanción.
