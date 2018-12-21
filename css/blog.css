@@ -65,4 +65,10 @@ article.post h1 a{
   color: #000 !important;
 }
 
+/*UPDATE MARKDOWN SINTAXYS*/
+strong{
+  font-weight: bolder !important;
+}
+
+
 
