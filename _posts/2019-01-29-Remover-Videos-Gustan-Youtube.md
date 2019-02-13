@@ -6,12 +6,7 @@ category: Tecnologiá
 tags: [web, tecnología, youtube, javascript]
 ---
 
-Para eliminar los videos que te gustan de manera masiva de Youtube debes seguir los siguientes pasos: 
-
-On the new version of YouTube you have to cli
-ck on "Edit" after you click on the "Liked videos" playlist, then you open up the cons
-ole and use the code! This method d
-oes not work if you don't click on "Edit"!(Thanks Roel B for pointing this out)
+Para eliminar de la Playlist, los videos que te gustan de manera masiva de Youtube debes seguir los siguientes pasos: 
 
 1. En la Nueva Versión de Youtube debes hacer clic en la opción de editar el playlist de los videos
     que te gustan.
