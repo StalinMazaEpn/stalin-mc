@@ -17,10 +17,14 @@ Para eliminar de la Playlist, los videos que te gustan de manera masiva de Youtu
 4. Hecho esto debemos ingresar el siguiente código en la consola: 
 
 ```js
-  //Código para eliminar los vídeos que me gustan
-  
-  var items = $('body').getElementsByClassName("pl-video-edit-remove-liked-video"); 
+
+  //Código para eliminar los vídeos que me gustan  
+  let items = $('body').getElementsByClassName("pl-video-edit-remove-liked-video"); 
+ 
   for(var i = 0; i < items.length; i++){
       items[i].click();
   }
+  
 ```
+
+Nota: si no funciona, procura cada vez que elimines cierta cantidad de videos, recargar la página y ejecutar los pasos anteriores.
