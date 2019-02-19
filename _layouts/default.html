@@ -29,11 +29,38 @@
             <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
             <p class="site-description">{{ site.description }}</p>
           </div>
-
-          <nav class="nav-blog">
-            <a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}/about-me">Sobre Mí</a>
+         
+          <nav class="nav-blog">            
+              <a href="#" class="brand-logo">Blog Stalin</a>
+              <a href="#" data-target="mobile-menu-blog" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li>
+                  <a href="{{ site.baseurl }}/">
+                    Inicio</a>
+                </li>
+                <li>
+                  <a href="{{ site.baseurl }}/about-me">Sobre Mí</a>
+                </li>
+              </ul>
+            </div>
           </nav>
+
+          <ul class="sidenav" id="mobile-menu-blog">
+            <section class="app_options section center-align">        
+              <article class="center-align">
+                     <img src=https://avatars0.githubusercontent.com/u/18720294?s=460&amp;v=4" alt="" class="circle-img">
+                     <h4 class="white-text">Stalin Maza</h3>
+                     <p class="white-text">stalinct97@gmail.com</p>
+              </article>
+            </section>           
+            <li>
+              <a href="{{ site.baseurl }}/" class="text-left text-bold"><i class="material-icons left">home</i>Inicio</a>
+            </li>
+            <li>
+              <a href="{{ site.baseurl }}/about-me" class="text-left text-bold"><i class="material-icons left">person</i>Sobre Mí</a>
+            </li>
+          </ul>
+
         </header>
       </div>
     </div>
@@ -58,15 +85,33 @@
   <!--input search js -->
   <script type="text/javascript" src="{{ site.baseurl }}/js/jekyll-search.js"></script>
   <script type="text/javascript">
-      SimpleJekyllSearch({
-        searchInput: document.getElementById('search-input'),
-        resultsContainer: document.getElementById('results-container'),
-        json: 'search.json',
-        searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
-        noResultsText: 'No se han encontrado resultados.',
-        limit: 10,
-        fuzzy: false,
-        exclude: ['Welcome']
-      })
+      
+
+      var input_busqueda = document.getElementById('search-input');
+      if (typeof input_busqueda !== 'undefined' && input_busqueda != null){
+        SimpleJekyllSearch({
+          searchInput: document.getElementById('search-input'),
+          resultsContainer: document.getElementById('results-container'),
+          json: 'search.json',
+          searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+          noResultsText: 'No se han encontrado resultados.',
+          limit: 10,
+          fuzzy: false,
+          exclude: ['Welcome']
+        });
+        var btnCerrar = document.getElementById("close_search");
+        var listaResultados = document.getElementById('results-container');
+        btnCerrar.addEventListener("click",function(e){
+          e.preventDefault();
+          console.log("click cerrar")
+          input_busqueda.value = "";
+          listaResultados.innerHTML = "";
+        });
+      }
+
+      document.addEventListener('DOMContentLoaded', function() {
+        var menu_sidenav = document.querySelectorAll('.sidenav');
+        var instancia_sidenav = M.Sidenav.init(menu_sidenav, {});
+      });
   </script>
 </html>

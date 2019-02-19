@@ -1,5 +1,5 @@
 nav.nav-blog{
-  background-color: #53575a !important;
+  background-color: #282b2d !important;
   font-size: 1.6rem !important;
 }
 
@@ -93,3 +93,33 @@ strong{
   font-size: 3.6rem !important;
 }
 
+.nav_search{
+  background-color: #282b2d !important;
+}
+
+.input_cursor{
+  cursor:pointer;
+}
+
+.app_options{
+  height: 200px;
+  background-image: url(https://images.pexels.com/photos/1820563/pexels-photo-1820563.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-size: cover;
+}
+img.circle-img{
+  height: 60px;
+  border-radius: 50%;
+  width: 60px;
+}
+
+.text-left{
+  text-align: left;
+}
+.text-bold{
+  font-weight: bold;
+}
+
+.nav_search_container{
+  margin-top: 0;
+  margin-bottom: 1.6rem;
+}

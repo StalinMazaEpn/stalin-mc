@@ -2,10 +2,25 @@
 layout: default
 ---
 <!-- start search-->
-  <div class="search-container">
+  <!-- <div class="search-container">
      <input id="search-input" type="text" placeholder="Buscar..." class="search-item">
      <ul id="results-container" class="results-search"></ul>
+  </div> -->
+  <nav class="nav_search_container">
+    <div class="nav-wrapper nav_search">
+      <form>
+        <div class="input-field">
+          <input id="search-input" type="search" class="search-item input_cursor">
+          <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+          <i class="material-icons" id="close_search">close</i>         
+        </div>        
+      </form>      
+    </div>    
+  </nav>
+  <div class="container">
+      <ul id="results-container" class="results-search"></ul>
   </div>
+ 
 <!-- end search-->
 <div class="posts">
   {% for post in site.posts %}
