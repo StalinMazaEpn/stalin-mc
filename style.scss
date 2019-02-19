@@ -1,12 +1,34 @@
----
----
-
 //
-// IMPORTS
+// VARIABLES
 //
 
-@import "reset";
-@import "variables";
+// Colors
+:root{
+  --blue-color: #4183C4;
+}
+
+// COLORES SASS
+$blue: #4183C4;
+// Grays
+$black: #000;
+$darkerGray: #222;
+$darkGray: #333;
+$gray: #666;
+$lightGray: #eee;
+$white: #fff;
+// Font stacks
+$helvetica: Helvetica, Arial, sans-serif;
+$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$georgia: Georgia, serif;
+
+// Mobile breakpoints
+@mixin mobile {
+  @media screen and (max-width: 640px) {
+    @content;
+  }
+}
+
+
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
@@ -244,7 +266,7 @@ nav {
 //
 
 .posts > .post {
-  padding-bottom: 1.2em;
+  padding-bottom: 2em;
 }
 
 .posts > .post:last-child {
@@ -286,5 +308,5 @@ footer {
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
-@import "highlights";
+@import "includes";
 @import "svg-icons";
