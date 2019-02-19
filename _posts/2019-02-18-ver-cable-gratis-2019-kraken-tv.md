@@ -6,7 +6,7 @@ category: Android
 tags: [android, tv, gratis]
 ---
 
-Para poder observar los partidos de la Champions, algún partido de las princioales ligas de Europa o América, ver un documental o algun canal por cable, solo necesitas instalar el APK de Kraken TV y tener una velocidad de Internet como minimo 6mb para sintonizar la señal sin problemas.
+Para poder observar los partidos de la Champions, algún partido de las principales ligas de Europa o América, ver un documental o algún canal por cable, solo necesitas instalar el APK de Kraken TV y tener una velocidad de Internet como minimo 6mb para sintonizar la señal sin problemas.
 
 Los Pasos son los Siguientes:
 
