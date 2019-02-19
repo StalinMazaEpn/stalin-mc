@@ -10,11 +10,23 @@ Para poder observar los partidos de la Champions, algún partido de las princioa
 
 Los Pasos son los Siguientes:
 
-1. Descargar la App de su página oficial: <a href="https://github.com/krakentv2/release/raw/master/app148.apk" target="_blank">Kraken Tv</a>
+* Descargar la App de su página oficial: <a href="https://github.com/krakentv2/release/raw/master/app148.apk" target="_blank">Kraken Tv</a>
 
-![Con titulo](../images/404.jpg "Kraken TV")
+![Kraken TV](../images/kraken_tv_app_page.png "Kraken TV")
 
 
-2. Activar la opción de Origenes Desconocidos en tu Smarphone para poder instalar Apps que no son procedentes de la Google Play.
+* Activar la opción de Origenes Desconocidos en tu Smarphone para poder instalar Apps que no son procedentes de la Google Play.
 
-3.Instalar la App y Disfrutar
+* Instalar la Aplicación.
+
+![Instalar App Kraken TV](../images/instalar_kraken_tv_android.png "Instalar Kraken Android")
+
+* Abrir la Aplicación y Seleccionar el Canal que Deseas Ver, la mayoría funcionan correctamente.
+
+![Listado Canales Kraken TV](../images/lista_canales_kraken_tv.png "Listado Canales Kraken TV")
+
+* Disfruta la trasmisión de tus canales favoritos, además de que puedes aplicar Control Parental para evitar los Canales para Adultos
+
+![Canal ESPN Carga Correctamente Kraken TV](../images/espn_canal_kraken_tv.png "Canal ESPN Carga Correctamente Kraken TV")
+
+
