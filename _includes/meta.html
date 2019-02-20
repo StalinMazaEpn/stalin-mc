@@ -20,7 +20,7 @@
     <meta name="author" content="{{ site.name }}" />
 
     {% if page.header-img %}
-    <meta property="og:image" content="{{ site.url }}{{ page.header-img }}" />
+    <meta property="og:image" content="{{ site.url }}/{{ page.header-img }}" />
     {% endif %}
 
     {% if page.title %}
@@ -38,3 +38,4 @@
         {% for category in page.categories limit:1 %}
         <meta content="{{ category }}" property="article:section">
     {% endfor %}
+    {% endif %}
