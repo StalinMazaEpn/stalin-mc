@@ -31,3 +31,7 @@ Install Ruby
 - gem install jekyll-sitemap
 - gem install jekyll-feed
 
+Execute Jekyll Serve
+
+jekyll serve --host=0.0.0.0 -w
+
