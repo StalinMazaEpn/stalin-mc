@@ -6,7 +6,6 @@ Aqui se puede usar Google Analytics tracking, comentarios de Disqus e iconos de 
 
 ## Caracteristicas del Blog
 
-✓ Command-line free _fork-first workflow_, using GitHub.com to create, customize and post to your blog   
 ✓ Esta versión 2.0 de Jekyll soporta el uso de Sass/Coffeescript
 ✓ Alojamiento Gratuito en Github Pages
 ✓ Crear Post con Markdown
@@ -18,20 +17,19 @@ Aqui se puede usar Google Analytics tracking, comentarios de Disqus e iconos de 
 
 ## Creditos
 
-- [Jekyll](https://github.com/jekyll/jekyll) - Thanks to its creators, contributors and maintainers.
-- [SVG icons](https://github.com/neilorangepeel/Free-Social-Icons) - Thanks, Neil Orange Peel. They're beautiful.
-- [Solarized Light Pygments](https://gist.github.com/edwardhotchkiss/2005058) - Thanks, Edward.
-- [Joel Glovier](http://joelglovier.com/writing/) - Great Jekyll articles. I used Joel's feed.xml in this repository.
-- [David Furnes](https://github.com/dfurnes), [Jon Uy](https://github.com/jonuy), [Luke Patton](https://github.com/lkpttn) - Thanks for the design/code reviews.
-- [Bart Kiers](https://github.com/bkiers), [Florian Simon](https://github.com/vermluh), [Henry Stanley](https://github.com/henryaj), [Hun Jae Lee](https://github.com/hunjaelee), [Javier Cejudo](https://github.com/javiercejudo), [Peter Etelej](https://github.com/etelej), [Ben Abbott](https://github.com/jaminscript), [Ray Nicholus](https://github.com/rnicholus), [Erin Grand](https://github.com/eringrand), [Léo Colombaro](https://github.com/LeoColomb), [Dean Attali](https://github.com/daattali), [Clayton Errington](https://github.com/cjerrington), [Colton Fitzgerald](https://github.com/coltonfitzgerald), [Trace Mayer](https://github.com/sunnankar) - Thanks for your [fantastic contributions](https://github.com/barryclark/jekyll-now/commits/master) to the project!
+- <a href="https://github.com/jekyll/jekyll" target="_blank">Jekyll</a> - Gracias a los Creadores de Jekyll
 
-Install Ruby
+## Instalar Ruby
+
+Descargalo desde <a href="http://jekyll-windows.juthilo.com/2-jekyll-gem/" target="_blank">aquí</a>
+
+Ejecuta los Siguientes Comandos una vez instalador Ruby Correctamente
 
 - gem install jekyll
 - gem install jekyll-sitemap
 - gem install jekyll-feed
 
-Execute Jekyll Serve
+Hecho esto, puedes ejecutar el servidor local con el siguiente comando: 
 
-jekyll serve --host=0.0.0.0 -w
+- jekyll serve --host=0.0.0.0 -w
 
