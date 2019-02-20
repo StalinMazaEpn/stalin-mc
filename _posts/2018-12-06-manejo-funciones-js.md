@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Manejo de Funciones Asíncronas en JavaScript
+subtitle: "Aprende la diderencia de usar callbacks, promesas y asyncsawait en Javascript"
+author: "Stalin Maza"
 permalink: /manejo-funciones-asincronas-js/
 category: Programación
 tags: [programación, web dev, javascript,es6]

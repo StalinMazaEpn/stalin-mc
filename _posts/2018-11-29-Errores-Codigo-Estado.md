@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Códigos de Estado
+subtitle: "Aprende los Códigos de Estado más importantes en la Web"
+author: "Stalin Maza"
 permalink: /codigos-estado-http-2018/
 category: Programación
 tags: [web, programación, dev,servers]

@@ -1,6 +1,8 @@
 ---
 layout: post
-title: Métodos de JQuery que Vanilla JS ya ofrece de manera Nativa.
+title: Métodos de JQuery que Vanilla JS ya ofrece de manera Nativa
+subtitle: "Aprende como trabaja JQuery usando JS Nativo"
+author: "Stalin Maza"
 permalink: /vanilla-js-jquery/
 category: Programación
 tags: [programación, jquery, frontend, vanilla js]

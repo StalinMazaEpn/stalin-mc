@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Eliminar Videos que me Gustan de Youtube
+subtitle: "Remover el Playlist de Videos que te Gustan de Youtube"
+author: "Stalin Maza"
 permalink: /remover-videos-gustan-youtube-2019/
 category: Tecnologiá
 tags: [web, tecnología, youtube, javascript]

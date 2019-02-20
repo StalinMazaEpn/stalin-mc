@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Infracciones Electrónicas en el Código Penal (EC)
+subtitle: "Repasa las principales infracciones eléctronicas en el Código Penal Ecuatoriano"
+author: "Stalin Maza"
 permalink: /infracciones-electronicas-codigo-penal/
 category: Seguridad en Redes
 tags: [seguridad, legislación, infracciones electrónicas,ecuador]

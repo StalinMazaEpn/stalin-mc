@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Tips para usar IONIC 3
+subtitle: "Las siguientes son indicaciones, tips y formas que aprendí leyendo documentación, en foros o en libros para usar IONIC 3 de manera correcta, espero sean utíles para ustedes, tal como fueron para mí"
+author: "Stalin Maza"
 permalink: /tips-usar-ionic-3/
 category: Desarrollo Móvil
 tags: [programación, movil dev, apps hibridas, Ionic]

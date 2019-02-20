@@ -2,24 +2,19 @@
 <html lang="es">
   <head>
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
-
     {% include meta.html %}
-
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <link rel="icon" href="{{site.baseurl }}/favicon.ico">
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-    <!-- MATERIALIZE CSS-->    
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- FAVICON -->
+    <link rel="icon" href="{{site.baseurl }}/favicon.ico">
+    <!-- ESTILOS -->  
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="{{ site.baseurl }}/css/materialize.min.css">
-    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="stylesheet" href="{{ site.baseurl }}/css/blog.css">
   </head>
-
   <body>
     <div class="wrapper-masthead">
       <div class="container">

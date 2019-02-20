@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Active and Passive Causatives
+subtitle: "Learn how to use Causitives with a very good examples"
+author: "Stalin Maza"
 permalink: /causitives-active-passive/
 category: Ingles
 tags: [Ingles, Causatives]

@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Plan de Contingencia ante Desastres en un Centro de Cómputo
+subtitle: "Repaso sobre un Plan de Contingencia ante Desastres en Un Centro de Computo"
+author: "Stalin Maza"
 permalink: /plan-contingencia-ante-desastres-centro-computo/
 category: Soporte Técnico de TICs
 tags: [plan de contingencia, centro de cómputo, tics]

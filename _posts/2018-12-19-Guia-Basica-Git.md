@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Guia Básica de Git y Github
+subtitle: "Una Guía Básica para aprender a usar lo esencial de Git"
+author: "Stalin Maza"
 permalink: /guia-basica-git-github/
 category: Programación
 tags: [programación, dev,git,github,repositorios]

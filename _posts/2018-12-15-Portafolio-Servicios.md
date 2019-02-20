@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Portafolio de Servicios PhoneMorbidtech
+subtitle: "Ejemplo de Un Portafolio de Servicios"
+author: "Stalin Maza"
 permalink: /portafolio-servicios-phonemorbidtech/
 category: Comercio Electrónico
 tags: [comercio electrónico, portafolio servicios, phonemorbidtech]
