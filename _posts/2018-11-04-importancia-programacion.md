@@ -1,8 +1,10 @@
 ---
 layout: post
-title: Importancia de la Programación
+title: "Importancia de la Programación"
+subtitle: "La programación es super importante y con este video podras entender de una forma clara por que sucede esto."
 permalink: /importancia-programacion-2018/
 category: Programación
+author: "Stalin Maza"
 tags: [programación, dev]
 ---
 
