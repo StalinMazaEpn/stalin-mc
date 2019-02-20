@@ -123,3 +123,77 @@ img.circle-img{
   margin-top: 0;
   margin-bottom: 1.6rem;
 }
+
+.capitalize_text{
+  text-transform: capitalize;
+}
+
+
+
+
+/* SOCIAL ICONS */
+/* Share Bar */
+#share-bar {
+    font-size: 20px;
+}
+
+/* Title */
+#share-bar h4 {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+/* All buttons */
+.share-buttons {
+}
+
+/* Each button */
+.share-button {
+    margin: 0px;
+    margin-bottom: 10px;
+    margin-right: 3px;
+    border: 1px solid #D3D6D2;
+    padding: 5px 10px 5px 10px;
+}
+.share-button:hover {
+    opacity: 1;
+    color: #ffffff;
+}
+
+/* COLORES TEXTO */
+.fa-facebook-official,
+.fa-twitter,
+.fa-pinterest-p,
+.fa-reddit-alien,
+.fa-linkedin{
+  color: #fff;
+}
+/* Facebook button */
+.fa-facebook-official {
+    background: #3b5998;    
+}
+/* Twitter button */
+.fa-twitter {
+  background: #55acee;
+}
+/* Pinterest button */
+.fa-pinterest-p {
+  background: #cb2027;
+}
+
+/* Reddit button */
+.fa-reddit-alien {
+  background: #ff4500;
+}
+/* LinkedIn button */
+.fa-linkedin {
+  background: #007bb5;
+}
+
+/* Email button */
+.fa-envelope {
+    color: #444444;
+}
+.fa-envelope:hover {
+    background-color: #444444;
+}

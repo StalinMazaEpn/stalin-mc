@@ -4,6 +4,8 @@
 
 # Name of your site (displayed in the header)
 name: Stalin Maza
+# Name of the Autor
+author: Stalin Maza
 
 # Short bio or description (displayed in the header)
 description: Desarrollador Web
@@ -73,7 +75,7 @@ sass:
   style: :expanded # You might prefer to minify using :compressed
 
 # Use the following plug-ins
-gems:
+plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
 
@@ -85,4 +87,3 @@ exclude:
   - README.md
   - CNAME
 
-theme: jekyll-theme-cayman
