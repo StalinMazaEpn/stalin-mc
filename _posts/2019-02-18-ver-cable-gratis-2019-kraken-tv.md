@@ -5,6 +5,7 @@ subtitle: "No te pierdas el acceso a TV por Cable en Android Gratis con Kraken T
 author: "Stalin Maza"
 permalink: /television-gratis-android-2019-kraken-tv/
 category: Android
+header-img: "images/kraken_tv_app_page.png"
 tags: [android, tv, gratis]
 ---
 
