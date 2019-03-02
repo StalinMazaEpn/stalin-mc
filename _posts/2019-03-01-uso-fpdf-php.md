@@ -9,8 +9,6 @@ author:  "Stalin Maza"
 tags: [programación, dev, php, mysql, fpdf]
 ---
 
-# Ejercicio con FPDF, MySQL y PHP
-
 Para este ejercicio usaremos la líbreria FPDF en conjunto con PHP y MySQL.
 
 Necesitamos descargar el archivo de FPDF Y lo podemos hacer en su página oficial: <a href="http://www.fpdf.org/es" target="_blank">FPDF</a>
