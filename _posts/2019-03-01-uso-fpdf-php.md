@@ -187,7 +187,7 @@ $pdf->Output("I","ejemplo.pdf",1);
 
 ```
 
-Puedes descargar el resultado del Ejemplo y los archivos del ejercicio <a href="https://ouo.io/Fl4CWh" target="_blank">aquí</a>
+Puedes descargar el resultado del Ejemplo y los archivos del ejercicio <a href="http://bit.ly/2UhprOm" target="_blank">aquí</a>
 
 
 
