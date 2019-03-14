@@ -1,6 +1,5 @@
 #
 # This file contains configuration flags to customize your site
-#
 
 # Name of your site (displayed in the header)
 name: Stalin Maza
@@ -47,6 +46,8 @@ google_analytics: UA-110488696-3
 # Used for Sitemap.xml and your RSS feed
 url: https://stalinmazaepn.github.io/StalinMazaEpn
 
+url_production: https://stalinmazaepn.github.io/StalinMazaEpn
+
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
@@ -58,6 +59,8 @@ baseurl: "/StalinMazaEpn"
 #
 
 img_cover_post_default: "images/cover_post_default.png"
+
+github_username: "/StalinMazaEpn"
 
 permalink: /:title/
 
