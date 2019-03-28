@@ -38,6 +38,9 @@
                 <li>
                   <a href="{{ site.baseurl }}/about-me">Sobre Mí</a>
                 </li>
+                 <li>
+                  <a href="{{ site.baseurl }}/mis-proyectos">Mis Proyectos</a>
+                </li>
               </ul>
             </div>
           </nav>
@@ -45,7 +48,7 @@
           <ul class="sidenav" id="mobile-menu-blog">
             <section class="app_options section center-align">        
               <article class="center-align">
-                     <img src=https://avatars0.githubusercontent.com/u/18720294?s=460&amp;v=4" alt="" class="circle-img">
+                     <img src="https://avatars0.githubusercontent.com/u/18720294?s=460&amp;v=4" alt="" class="circle-img">
                      <h4 class="white-text">Stalin Maza</h3>
                      <p class="white-text">stalinct97@gmail.com</p>
               </article>
@@ -56,6 +59,10 @@
             <li>
               <a href="{{ site.baseurl }}/about-me" class="text-left text-bold"><i class="material-icons left">person</i>Sobre Mí</a>
             </li>
+             <li>
+                 <a href="{{ site.baseurl }}/mis-proyectos" class="text-left text-bold"><i
+                         class="material-icons left">work</i>Mis Proyectos</a>
+             </li>
           </ul>
         </header>
       </div>
@@ -109,5 +116,14 @@
         var menu_sidenav = document.querySelectorAll('.sidenav');
         var instancia_sidenav = M.Sidenav.init(menu_sidenav, {});
       });
+
+      document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.materialboxed');
+        var instances = M.Materialbox.init(elems, {});
+      });
+
+
+   
+
   </script>
 </html>
