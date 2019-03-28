@@ -1,3 +1,8 @@
+:root {
+    --tamanio-figura: 40px;
+}
+
+
 nav.nav-blog{
   background-color: #282b2d !important;
   font-size: 1.6rem !important;
@@ -239,4 +244,76 @@ blockquote{
     padding: 0px;
 }
 
+
+
+/* CSS PRELOADER */
+.contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.ocultar {
+    display: none;
+}
+
+#preloaderfiguras {
+    position: relative;
+}
+
+#preloaderfiguras:before {
+    width: var(--tamanio-figura);
+    height: var(--tamanio-figura);
+    border-radius: 20px;
+    background: blue;
+    content: "";
+    position: absolute;
+    background: #9b59b6;
+    animation: preloaderfiguras_before 1.5s infinite ease-in-out;
+}
+
+#preloaderfiguras:after {
+    width: var(--tamanio-figura);
+    height: var(--tamanio-figura);
+    border-radius: 20px;
+    background: blue;
+    content: "";
+    position: absolute;
+    background: #2ecc71;
+    left: 22px;
+    animation: preloaderfiguras_after 1.5s infinite ease-in-out;
+}
+
+@keyframes preloaderfiguras_before {
+    0% {
+        transform: translateX(0px) rotate(0deg);
+    }
+
+    50% {
+        transform: translateX(50px) scale(1.2) rotate(260deg);
+        background: #2ecc71;
+        border-radius: 0px;
+    }
+
+    100% {
+        transform: translateX(0px) rotate(0deg);
+    }
+}
+
+@keyframes preloaderfiguras_after {
+    0% {
+        transform: translateX(0px);
+    }
+
+    50% {
+        transform: translateX(-50px) scale(1.2) rotate(-260deg);
+        background: #9b59b6;
+        border-radius: 0px;
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}
 

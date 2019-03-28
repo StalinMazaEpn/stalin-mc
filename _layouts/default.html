@@ -68,7 +68,12 @@
       </div>
     </div>
     
-    <div id="main" role="main" class="container">
+    <div class="contenedor" id="preloader_pagina">
+        <div id="preloaderfiguras">
+        </div>
+    </div>
+
+    <div id="main" role="main" class="container ocultar">
       {{ content }}
     </div>
 
@@ -121,6 +126,15 @@
         var elems = document.querySelectorAll('.materialboxed');
         var instances = M.Materialbox.init(elems, {});
       });
+
+
+      const preloader = document.getElementById("preloader_pagina");
+      const contenido_pagina = document.getElementById("main");
+
+      function load_page() { preloader.classList.add("ocultar");
+      contenido_pagina.classList.remove("ocultar");
+      }
+      window.onload = load_page;
 
 
    
