@@ -9,7 +9,7 @@
 .site-info{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .site-info .left_item{
@@ -18,7 +18,7 @@
 }
 
 .info_owner{
-    margin-left: 1rem;
+    margin-left: 2rem;
 }
 
 
@@ -382,3 +382,13 @@ li.ls-none{
 a.altern{
     color: var(--cl-web) !important;
 } */
+
+#mobile-menu-blog{
+    padding-left: 0px !important;
+}
+
+@media screen and (max-width: 992px){
+    nav .brand-logo{
+        display: none;
+    }
+}
