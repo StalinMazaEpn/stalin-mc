@@ -29,6 +29,24 @@ software, procesos y los datos críticos de un negocio.
 - Revisiones periódicas de las estructuras.
 - Garantizar la fiabilidad de los sistemas. 
 
+`* Resolver el problema`
+` * Mirar posibles soluciones`
+` * Establecer cual es la más adecuada`
+`* Escribir el código`
+` * Elegir un lenguaje`
+` * Elegir los tipos de dato más adecuados`
+`* Compartir la solución`
+` * Publicarla en Github`
+` * Escribir un artículo sobre ello`
+
+
+- Elemento de lista 2
+    - Elemento de lista 3
+    - Elemento de lista 4
+        - Elemento de lista 5
+        - Elemento de lista 6
+
+
 **Riesgos Generales**
 
 - Daños En La Infraestructura.

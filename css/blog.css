@@ -1,21 +1,41 @@
 :root {
     --tamanio-figura: 40px;
+    --bg-web: #282b2d;
+    --cl-web: #fff;    
+    --enlaces-web: #26a69a;
+}
+
+
+.site-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site-info .left_item{
+    display: flex;
+    align-items: center;
+}
+
+.info_owner{
+    margin-left: 1rem;
+}
+
+
+#btn_dark_mode{
+    cursor: pointer;
+    background: #26a69a;
+}
+
+.btn_light_mode{
+    background: #f3e214 !important;
 }
 
 
 nav.nav-blog{
-  background-color: #282b2d !important;
+  background-color: #1F518E !important;
   font-size: 1.6rem !important;
 }
-
-nav.nav-blog a{
-  color: #f3ecec !important;
-}
-
-nav.nav-blog a:hover{
-  color: #fff !important;
-}
-
 
 input.search-item{
     /*max-width: 80% !important;*/
@@ -34,41 +54,20 @@ input.search-item{
     padding: .4rem !important;
 }
 
-.results-search li a{  
-    color: #464343 !important;
-}
-
-.results-search li a:hover{
-    color: #000 !important;
-}
-
 .relatedPost{
   margin: 1rem !important;
   text-align: center;
   font-size: 1.1rem;
 }
-.relatedPost a {
-  color: #464343 !important;
-}
-
-.relatedPost a:hover {
-  color: #000 !important;
-}
 
 .post-relacionados h4{
     margin-top: 2.4rem;
     font-size: 2.2rem;
-    color: #464040;
     text-align: center;
 }
 
 article.post h1 a{
   font-size: 3.1rem !important;
-  color: #464343 !important;
-}
-
-article.post h1 a{
-  color: #000 !important;
 }
 
 /*UPDATE MARKDOWN SINTAXYS*/
@@ -99,7 +98,7 @@ strong{
 }
 
 .nav_search{
-  background-color: #282b2d !important;
+  background-color: #1F518E !important;
 }
 
 .input_cursor{
@@ -133,9 +132,6 @@ img.circle-img{
   text-transform: capitalize;
 }
 
-
-
-
 /* SOCIAL ICONS */
 /* Share Bar */
 #share-bar {
@@ -157,12 +153,12 @@ img.circle-img{
     margin: 0px;
     margin-bottom: 10px;
     margin-right: 3px;
-    border: 1px solid #D3D6D2;
+    /* border: 1px solid #D3D6D2; */
     padding: 5px 10px 5px 10px;
 }
 .share-button:hover {
     opacity: 1;
-    color: #ffffff;
+    /* color: #ffffff; */
 }
 
 /* COLORES TEXTO */
@@ -171,7 +167,7 @@ img.circle-img{
 .fa-pinterest-p,
 .fa-reddit-alien,
 .fa-linkedin{
-  color: #fff;
+  /* color: #fff; */
 }
 /* Facebook button */
 .fa-facebook-official {
@@ -197,7 +193,7 @@ img.circle-img{
 
 /* Email button */
 .fa-envelope {
-    color: #444444;
+    background: #007bb5;
 }
 .fa-envelope:hover {
     background-color: #444444;
@@ -244,6 +240,11 @@ blockquote{
     padding: 0px;
 }
 
+/* Avatar Imagen
+.site-avatar img{
+    border-radius: 50%;
+    height: 70px;
+} */
 
 
 /* CSS PRELOADER */
@@ -317,3 +318,67 @@ blockquote{
     }
 }
 
+
+
+body,h1,h2,h3,h4,p{
+    background: var(--bg-web);
+    color: var(--cl-web);
+}
+
+body{
+    --bg-web:white;
+    --cl-web: #282b2d;
+}
+
+body.dark_mode{
+    --bg-web: #282b2d;
+    --cl-web: white;    
+    --enlaces-web: #0ab9e6;
+}
+
+.link_hide{
+    color: var(--cl-web);
+}
+
+.link_item{
+  color: var(--enlaces-web) !important;  
+}
+
+.social_icons{
+    color:white !important;  
+}
+
+.bg_transparent{
+    background: transparent;
+}
+
+/* ul:not(.browser-default)>li{
+    list-style-type: circle !important;
+} */
+
+li.ls-none{
+    list-style: none !important;
+}
+
+
+
+.fixed-action-btn ul{
+    padding-left: 0px !important;
+}
+
+
+/* ESTILOS DISQUS */
+.dark .nav-tab>a,
+.tab-conversation.active>a
+{
+    color: #656c7a !important;
+}
+
+
+/* a{
+    color: var(--enlaces-web) !important;
+}
+
+a.altern{
+    color: var(--cl-web) !important;
+} */

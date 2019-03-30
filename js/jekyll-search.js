@@ -210,7 +210,7 @@
                     searchInput: null,
                     resultsContainer: null,
                     json: [],
-                    searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+                    searchResultTemplate: '<li class="ls-none"><a href="{url}" title="{desc}">{title}</a></li>',
                     noResultsText: "No results found",
                     limit: 10,
                     fuzzy: !1,
