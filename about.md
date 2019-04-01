@@ -19,12 +19,7 @@ Mi frase favorita es esta:
 
 ### Más información
 
-Puedes ver mi portafolio: <a href="https://stalinmazaepn.github.io/stalinMaza/" target="_blank">aquí</a> y mis repositorios <a href="https://github.com/StalinMazaEpn" target="_blank">aquí</a> además de mi CV debajo
-
-<div class="iframe_container">
-<iframe src="{{site.url}}/docs/cv_stalin.pdf#zoom=100&view=fitH" frameborder="0" width="750" height="600" marginheight="0" marginwidth="0" id="pdf"  
-></iframe>
-</div>
+Puedes ver mi portafolio y mi CV: <a href="https://stalinmazaepn.github.io/stalinMaza/" target="_blank">aquí</a>
 
 
 ### Contáctame
