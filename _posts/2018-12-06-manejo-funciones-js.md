@@ -13,7 +13,8 @@ comenzaron en forma de callbacks, para seguir despues con las promesas y finalme
 
 <!-- more -->
 
-Usando CallBacks
+***Usando CallBacks***
+
 ```javascript
 
 function manejarPeticion(request,response){
@@ -41,7 +42,7 @@ function manejarPeticion(request,response){
 
 ```
 
-Usando Promesas
+***Usando Promesas***
 
 ```javascript
 
@@ -65,7 +66,7 @@ function manejarPeticion(request,response){
 
 ```
 
-Usando Async/Await
+***Usando Async/Await***
 
 ```javascript
 
@@ -87,7 +88,7 @@ async function manejarPeticion(request,response){
 
 ## MANEJO DE FUNCIONES ASÍNCRONAS
 
-#### Ejecución de una tarea de forma secuencial, termina 1 y sigue el otro
+Ejecución de una tarea de forma secuencial, termina 1 y sigue el otro
 
 ```javascript
 async taskOne(){

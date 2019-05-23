@@ -12,156 +12,98 @@
     <!-- FAVICON -->
     <link rel="icon" href="{{site.baseurl }}/favicon.ico">
     <!-- ESTILOS -->
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/materialize.min.css">
+    <!-- <link rel="stylesheet" href="{{ site.baseurl }}/css/materialize.min.css"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/highlight.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/vs2015.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/css/blog.css">
 </head>
 
 <body>
-    <div class="wrapper-masthead">
-        <div class="container">
-            <header class="masthead clearfix">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.author }}</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSMBlog"
+            aria-controls="navbarSMBlog" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-
-                <div class="site-info">
-                    <div class="left_item">
-                        <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
-                        <div class="info_owner">
-                            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.description}}</a></h1>
-                            <p class="site-description">EPN Ecuador</p>
-                        </div>
-                    </div>
-                </div>
-
-                <nav class="nav-blog">
-                    
-                    <a href="{{ site.baseurl }}/" class="brand-logo">Stalin Maza</a>
-                    <a href="#" data-target="mobile-menu-blog" class="sidenav-trigger"><i
-                            class="material-icons">menu</i></a>
-                    <ul id="nav-mobile" class="right hide-on-med-and-down">
-                        <li class="ls-none">
-                            <a class="text-bold" href="{{ site.baseurl }}/">
-                                Inicio</a>
-                        </li>
-                        <li class="ls-none">
-                            <a class="text-bold" href="{{ site.baseurl }}/about-me">Sobre Mí</a>
-                        </li>
-                    </ul>
+        <div class="collapse navbar-collapse" id="navbarSMBlog">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="{{ site.baseurl }}/">Inicio<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ site.baseurl }}/about-me">Sobre Mí</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="btn_dark_mode" href="#">Cambiar Tema</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">
+                        Modo: <span id="icon-theme-mode">Icon</span>
+                    </a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" id="search-input" type="search" placeholder="Buscar"
+                    aria-label="Buscar">
+            </form>
         </div>
-        </nav>
-
-        <ul class="sidenav" id="mobile-menu-blog">
-            <section class="app_options section center-align">
-                <article class="center-align">
-                    <img src="https://avatars0.githubusercontent.com/u/18720294?s=460&amp;v=4" alt=""
-                        class="circle-img">
-                    <h4 class="white-text bg_transparent">Stalin Maza</h3>
-                        <p class="white-text bg_transparent">stalinct97@gmail.com</p>
-                </article>
-            </section>
-            <li>
-                <a href="{{ site.baseurl }}/" class="text-left text-bold"><i
-                        class="material-icons left">home</i>Inicio</a>
-            </li>
-            <li>
-                <a href="{{ site.baseurl }}/about-me" class="text-left text-bold"><i
-                        class="material-icons left">person</i>Sobre Mí</a>
-            </li>
-            <li>
-                <a href="{{ site.baseurl }}/mis-proyectos" class="text-left text-bold"><i
-                        class="material-icons left">work</i>Mis Proyectos</a>
-            </li>
-        </ul>
-        </header>
+    </nav>
+    <!-- RESULTADOS BUSQUEDA -->
+    <div class="container-results-search">
+        <ul class="list-group" id="results-container"></ul>
     </div>
+    <!-- CONTENIDO PAGINA -->
+    <div id="main-content-blog" class="container content-container ocultar">
+        {{ content }}
     </div>
-
+    <!-- PRELOADER -->
     <div class="contenedor" id="preloader_pagina">
         <div id="preloaderfiguras">
         </div>
     </div>
-
-    <div id="main" role="main" class="container ocultar">
-        {{ content }}
-    </div>
-
-
-    <!-- BOTON FLOTANTE -->
-    <div class="fixed-action-btn">
-        <a class="btn-floating btn-large red">
-            <i class="large material-icons">settings_applications</i>
-        </a>
-        <ul>
-            <!-- <li><a class="btn-floating red"><i class="material-icons">Modo Oscuro</i></a></li>
-            <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
-            <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li> -->
-            <li class="ls-none"><a id="btn_dark_mode" class="btn-floating"><i
-                        class="material-icons">settings_power</i></a></li>
-        </ul>
-    </div>
-
+    <!-- FOOTER -->
     <div class="wrapper-footer">
         <div class="container">
-            <footer class="footer">
+            <footer class="footer footer-icons-social">
                 {% include svg-icons.html %}
-                <div class="footer-description">
-                    <p>©2018 Stalin Maza - Todos los Derechos Reservados</p>
-                </div>
             </footer>
+            <div class="footer-description">
+                <p>©2018 Stalin Maza - Todos los Derechos Reservados</p>
+            </div>
         </div>
     </div>
+    <!-- Boton hacia arriba -->
+    <a class="ir-arriba" javascript:void(0) title="Volver arriba">
+        <span class="fa-stack">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-arrow-up fa-stack-1x fa-inverse"></i>
+        </span>
+    </a>
 
     {% include analytics.html %}
 </body>
 <!-- Compiled and minified JavaScript -->
-<script src="{{ site.baseurl }}/js/materialize.min.js" defer="defer"></script>
-<!--input search js -->
-<script type="text/javascript" src="{{ site.baseurl }}/js/jekyll-search.js"></script>
-<script type="text/javascript">
-    var input_busqueda = document.getElementById('search-input');
-    if (typeof input_busqueda !== 'undefined' && input_busqueda != null) {
-        SimpleJekyllSearch({
-            searchInput: document.getElementById('search-input'),
-            resultsContainer: document.getElementById('results-container'),
-            json: 'search.json',
-            searchResultTemplate: '<li class="ls-none"><a href="{url}" title="{desc}">{title}</a></li>',
-            noResultsText: 'No se han encontrado resultados.',
-            limit: 10,
-            fuzzy: false,
-            exclude: ['Welcome']
-        });
-        var btnCerrar = document.getElementById("close_search");
-        var listaResultados = document.getElementById('results-container');
-        btnCerrar.addEventListener("click", function (e) {
-            e.preventDefault();
-            input_busqueda.value = "";
-            listaResultados.innerHTML = "";
-        });
-    }
-
-    document.addEventListener('DOMContentLoaded', function () {
-        var menu_sidenav = document.querySelectorAll('.sidenav');
-        var instancia_sidenav = M.Sidenav.init(menu_sidenav, {});
-    });
-
-    document.addEventListener('DOMContentLoaded', function () {
-        var elems = document.querySelectorAll('.materialboxed');
-        var instances = M.Materialbox.init(elems, {});
-    });
-
-
-    const preloader = document.getElementById("preloader_pagina");
-    const contenido_pagina = document.getElementById("main");
-
-    function load_page() {
-        preloader.classList.add("ocultar");
-        contenido_pagina.classList.remove("ocultar");
-    }
-    window.onload = load_page;
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
 </script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+</script>
+<!-- HIGHLIGHT JS -->
+<script type="text/javascript" src="{{ site.baseurl }}/js/highlight.js"></script>
+<!-- input search js -->
+<script type="text/javascript" src="{{ site.baseurl }}/js/jekyll-search.js"></script>
 <script type="text/javascript" src="{{ site.baseurl }}/js/blog.js"></script>
 
 </html>

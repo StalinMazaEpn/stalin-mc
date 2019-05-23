@@ -1,33 +1,30 @@
 ---
 layout: default
 ---
-  <nav class="nav_search_container">
-    <div class="nav-wrapper nav_search">
-      <form>
-        <div class="input-field">
-          <input id="search-input" type="search" class="search-item input_cursor">
-          <label class="label-icon" for="search"><i class="material-icons">search</i></label>
-          <i class="material-icons" id="close_search">close</i>         
-        </div>        
-      </form>      
-    </div>    
-  </nav>
-  <div class="container">
-      <ul id="results-container" class="results-search"></ul>
-  </div>
- 
-<!-- end search-->
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a class="link_item" href="{{ site.baseurl }}{{ post.url }}" class="read-more">Ver más</a>
-    </article>
-  {% endfor %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <!-- end search-->
+            <div class="posts">
+                {% for post in site.posts %}
+                <section class="media-body mt-3 mb-5">
+                    <h5 class="mt-0"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
+                    <p> {{ post.excerpt }}</p>
+                    <a class="link_item enlaces-sm" href="{{ site.baseurl }}{{ post.url }}" class="read-more">Ver Más</a>
+                </section>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="d-none d-md-block col-md-4">
+            <div class="media owner-description">
+                <img src="https://avatars0.githubusercontent.com/u/18720294?s=460&v=4" class="mr-3" alt="...">
+                <div class="media-body">
+                    <h5 class="mt-0">{{ site.author }}</h5>
+                   <p>{{ site.description }}</p>
+                   <p>{{site.author.description}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

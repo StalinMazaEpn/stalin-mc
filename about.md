@@ -11,11 +11,11 @@ Aquí en mi Blog podrás encontrar publicaciones relacionadas a temas que he apr
 
 Mi frase favorita es esta: 
 
-<blockquote>
-    "No importa cuántas veces falles, sólo debes de estar en lo correcto una vez. Entonces 
-    todos te llamarán un éxito de la noche a la mañana y te dirán lo afortunado que eres". 
-    Mark Cuban
-</blockquote>
+> No importa cuántas veces falles, sólo debes de estar en lo correcto una vez. Entonces 
+> todos te llamarán un éxito de la noche a la mañana y te dirán lo afortunado que eres
+
+***Mark Cuba***
+
 
 ### Más información
 

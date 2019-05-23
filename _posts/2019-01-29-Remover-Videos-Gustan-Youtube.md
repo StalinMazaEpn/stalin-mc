@@ -20,7 +20,7 @@ Para eliminar de la Playlist, los videos que te gustan de manera masiva de Youtu
    scroll en los vídeos hasta llegar al último video o al video hasta el cual lo queremos eliminar.
 4. Hecho esto debemos ingresar el siguiente código en la consola: 
 
-```js
+```javascript
 
   //Código para eliminar los vídeos que me gustan  
   let items = $('body').getElementsByClassName("pl-video-edit-remove-liked-video"); 
